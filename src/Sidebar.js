@@ -25,7 +25,7 @@ const Sidebar = ({
           >
             <div className="sidebar-note-title">
               <strong>{title}</strong>
-              <button className="delete-btn" onClick={(e) => onDeleteNote(id)}>
+              <button className="delete-btn" onClick={(e) => onDeleteNote(id)} aria-label="delete">
                 <TrashOutline color={"#00000"} height="20px" width="20px" />
               </button>
             </div>
